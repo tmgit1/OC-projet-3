@@ -64,7 +64,6 @@ Une fonction a été mise en place pour automatiser l'entraînement des modèles
 
 ### 5. Importance des Features
 - L'importance des features a été évaluée à l'aide des **valeurs SHAP** pour identifier les variables ayant le plus d'impact sur les prédictions globales. 
-- De plus, la technique **LIME** a été utilisée pour analyser l'importance des features sur des instances spécifiques du dataset.
 
 ### 6. Temps de calcul
 Bien que les modèles plus complexes comme **XGBoost** offrent de meilleures performances, leur temps d'entraînement est significativement plus long (jusqu'à plusieurs milliers de fois plus élevé que celui des modèles linéaires).
@@ -79,5 +78,5 @@ Enfin, l'étude a montré que l'**ENERGY STAR Score** n'est pas indispensable po
 - **Pandas** pour le traitement des données
 - **Scikit-learn** pour les modèles linéaires et l'évaluation
 - **XGBoost** pour les modèles non linéaires
-- **SHAP** et **LIME** pour l'interprétation des modèles
+- **SHAP** pour l'interprétation des modèles
 - **Matplotlib** et **Seaborn** pour les visualisations
